@@ -5,7 +5,7 @@ $Outlook = New-Object -ComObject Outlook.Application
 $Mail = $Outlook.CreateItem(0)
 
 #add properties as desired
-$Mail.To = "recipient@test.com" 
+$Mail.To = "" 
 $Mail.Subject = "subject" 
 $Mail.Body = "testing"
 
